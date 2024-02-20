@@ -16,6 +16,8 @@ class Account {
     }
 
     public function verificarLogin($name, $senha) {
+
+        
         return $this->name === $name && $this->senha === $senha;
     }
 
